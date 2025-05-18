@@ -7,7 +7,9 @@ authors = [
     { name = "MianAnwar", email = "miananwar.developer@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "openai-agents>=0.0.15",
+]
 
 [project.scripts]
 api-integration-openai-agents = "api_integration_openai_agents:main"
